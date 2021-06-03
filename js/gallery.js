@@ -79,8 +79,7 @@ class PhotoList {
             })
 
 
-        let
-            likeFind = this.likes.find(item => item.id === Number(photoFind.id))
+        let likeFind = this.likes.find(item => item.id === Number(photoFind.id))
 
         if (likeFind) {
             document.querySelector('.fa-heart').style.cssText = 'color:red'
